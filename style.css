@@ -43,6 +43,7 @@ section{
 #welcome-section h1{
     font-size: 5em;
   background: -webkit-linear-gradient(#0f5298, #d5f3fe);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
 }
@@ -89,6 +90,25 @@ img{
 }
 #footer{
     background-color: steelblue;
+}
+#links-container{
+    background-color:cadetblue;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#links-container a{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    margin: 20px 0;
+}
+#github-link{
+    background-image: url("/images/GitHub-Mark-120px-plus.png");
+    background-size: 100px;
 }
 @media (max-width: 1000px){
     #tiles-container{
