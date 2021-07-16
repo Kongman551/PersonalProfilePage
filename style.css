@@ -34,7 +34,7 @@ section{
     margin-left: 164px;
     height: 100vh;
     display: block;
-    padding: 10px 40px ;
+    padding: 0 40px;
 }
 #welcome-section{
     background-color:deepskyblue;
