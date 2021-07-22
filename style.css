@@ -136,15 +136,15 @@ label :hover{
     cursor: pointer;
 }
 #github-link{
-    background-image: url("/images/GitHub-Mark-120px-plus.png");
+    background-image: url("/PersonalProfilePage/images/GitHub-Mark-120px-plus.png");
     background-repeat: no-repeat;
 }
 #codepen-link{
-    background-image: url("/images/codePenLogo.png");
+    background-image: url("/PersonalProfilePage/images/codePenLogo.png");
     background-size: 120px;
 }
 #linkedin-link{
-    background-image: url("/images/LI-In-Bug.png");
+    background-image: url("/PersonalProfilePage/images/LI-In-Bug.png");
     background-repeat: no-repeat;
     background-size: 142px;
 }
